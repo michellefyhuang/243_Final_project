@@ -1,4 +1,5 @@
 #pre-processed matrix
+# test
 y1<-as.matrix(wines[,1:6])
 x1<-scale(y1)/sqrt(11)  #centering and normalizing
 
